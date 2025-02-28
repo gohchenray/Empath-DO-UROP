@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6950093264232344916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 400
+--- !u!114 &-5996373627786230195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f321dd38a2028949a3ecd8e2905bb5f, type: 3}
+  m_Name: RsAlign
+  m_EditorClassIdentifier: 
+  enabled: 1
+  _alignTo: 1
+--- !u!114 &-643510875942222247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475d71c97716db644863efe7bddfbd70, type: 3}
+  m_Name: AlignmentSample
+  m_EditorClassIdentifier: 
+  _processingBlocks:
+  - {fileID: 0}

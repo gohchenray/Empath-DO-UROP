@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8723349356723365642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-6325843439558183761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-5738201106668657618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-5234524444758067973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f321dd38a2028949a3ecd8e2905bb5f, type: 3}
+  m_Name: RsAlign
+  m_EditorClassIdentifier: 
+  enabled: 1
+  _alignTo: 1
+--- !u!114 &-4986128014474963013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-4204200514220795202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-4188506091142334433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-3261464709630796891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-3207807179734302195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-3171335032808883541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-2880808848899144612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-1907682317428181585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &-1748808581404689518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475d71c97716db644863efe7bddfbd70, type: 3}
+  m_Name: PointCloudDepthAndColor
+  m_EditorClassIdentifier: 
+  _processingBlocks:
+  - {fileID: -6950093264232344916, guid: e2aa3ac11b42b754081322be7318d71e, type: 2}
+  - {fileID: 114654795777124322}
+--- !u!114 &114654795777124322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949c0815228b7334a89a9b09ff0c7fdb, type: 3}
+  m_Name: RsPointCloud
+  m_EditorClassIdentifier: 
+  enabled: 1
+  TextureStream: 2
+  TextureFormat: 5
+  _occlusionRemoval: 1
+--- !u!114 &1307622111692167667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &1463689679203833437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8658da5fac1924385546d4cfccbea4, type: 3}
+  m_Name: RsDecimationFilter
+  m_EditorClassIdentifier: 
+  enabled: 1
+  _streamFilter: 1
+  _formatFilter: 1
+  _filterMagnitude: 2
+--- !u!114 &3817508957555088651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a370b019fb25fbe4384bc45033197fcd, type: 3}
+  m_Name: RsHoleFillingFilter
+  m_EditorClassIdentifier: 
+  enabled: 1
+  _holesFill: 0
+--- !u!114 &4569984853962707884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &7688186681102595650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &7730464805974752546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
+--- !u!114 &7771176534147679784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dffddaeb99d79644b99b1d8d18bad86, type: 3}
+  m_Name: RsThresholdFilter
+  m_EditorClassIdentifier: 
+  enabled: 1
+  MinDistance: 0.1
+  MaxDistance: 4
+--- !u!114 &8547551136539555787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e983f300be5296946991080a386e462a, type: 3}
+  m_Name: DepthCutoff
+  m_EditorClassIdentifier: 
+  enabled: 1
+  Distance: 1000
