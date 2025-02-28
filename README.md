@@ -2,6 +2,7 @@
 This repository documents the work done on an undegraduate research project entitled Empath-Do, a virtual reality application for phone app developers to test accessibility features via a Meta Quest 3 headset. 
 
 Empath-Do is an open-source augmented virtuality simulator that can simulate various impairments. The simulation allows designers to step into the shoes of individuals with sensory impairments and efficiently develop apps with accessibility features on smartphones. Currently, Empath-Do is developed in Unity for the Quest 3 using Meta's all in one SDK and uses an Intel Realsense D435i camera for depth data.  
+
 The concept of Empath-Do is as follows:  
 1. Hand tracking and simulated smartphone recreated in virtual environment which reflects real world interaction with smartphone
 2. Sensory impairments such as visual (cataracts, glaucoma etc.) or auditory are overlaid in the virtual environment.
@@ -14,7 +15,8 @@ The project is a Unity app run via a Quest Link cable (USB-C) with a realsense D
 3. The pointcloud is further segmented using a colour filter that takes individual points HSV values, such that the pointcloud for the smartphone remains. This colour filter tracks human skin tones and culls them from the point cloud. Algorithm for RGB values are obtained from this research paper https://medium.com/swlh/human-skin-color-classification-using-the-threshold-classifier-rgb-ycbcr-hsv-python-code-d34d51febdf8
 4. Display of the hand is done using Meta's provided hand tracking which is more robust and supported.
 5. A canvas object containing a stream of the screen of the actual smartphone is projected onto the segmented pointcloud smartphone. The result is a recreation of the user's hands and smartphone in VR.
-6. Sensorial impairments in the form of filters or events are overlaid onto the scene, simulating the impairment.  
+6. Sensorial impairments in the form of filters or events are overlaid onto the scene, simulating the impairment.
+   
 Currently, progress of the research is stuck at point (4). The following issues are obtained when using the colour filter:
 - Low frame rate due to iteration over each point's rgb values which is then converted to HSV
 - Inaccurate algorithm for segmenting human skin tones
@@ -42,4 +44,15 @@ Follow the installation steps as per the user guides. For installing Realsense S
 As Meta does not allow access to the Quest 3's camera feed, an Intel Realsense D435i depth camera is attached to the front of the headset with a 3D printed mount (found in files) and image data streamed to Unity via Unity Link cable.   
 
 # Setting up project
-
+1. Download meta and realsense SDKs. Set up meta SDK to work in Unity according to documentation and guides - OVR camera rig and  hand tracking
+   - https://www.youtube.com/watch?v=BU9LYKM2TDc
+   - https://www.youtube.com/watch?v=rKDuYzS-D2E
+2. Set up Realsense SDK in Unity project following one of the provided samples. The project should have these gameobjects:
+  - Canvas. Render Mode: Screen Space - Camera
+  - EventSystem
+  - RsDevice. Attach RsDevice object to CenterEyeAnchor of OVRCameraRig
+  - RsProcessingPipe  
+Scripts for the GameObjects can be found in the meta realsense SDK files provided, basically copy the project settings of one of the other samples
+3. Change the Profile under the RsProcssing Pipe to the Test profile found in this repository under ProcessingPipe
+4. Attach the Depth Cutoff, Rs Colour Filter and Rs Point Cloud Processing blocks into the test profile. These profiles can be found in this repository under Scripts > ProcessingBlocks  
+The script I use to edit is the Colour filter script as well as testing out modifications to the processing pipe.  
